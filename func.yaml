@@ -5,8 +5,9 @@ runtime: quarkus
 registry: ""
 image: ""
 imageDigest: ""
-build: local
-git: {}
+build: git
+git:
+  url: https://github.com/jrangelramos/quarkus-func
 buildpacks: []
 volumes: []
 buildEnvs:
